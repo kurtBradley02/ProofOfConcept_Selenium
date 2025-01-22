@@ -14,7 +14,7 @@ public class Test01_Google extends Test00{
 	public void test01() {
 		driver.get("https://www.google.com/");
 		
-		WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"APjFqb\"]")));
+		WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"APjFq\"]")));
 		
 		assertEquals(searchBar.isDisplayed(), true);
 		
